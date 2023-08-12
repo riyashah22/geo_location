@@ -1,0 +1,45 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;200&family=Titillium+Web:wght@300&display=swap"); */
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h1 {
+  margin: auto;
+  margin-top: 5vh;
+  color: darkblue;
+  font-weight: bolder;
+}
+p {
+  margin: auto;
+  margin: 5vh 20vh;
+}
+.btn-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 8vh;
+  width: 16%;
+  margin-left: 11%;
+}
+
+#alert {
+  display: none;
+  margin: 5vh;
+  padding: 1vh 11vh;
+  filter: opacity(0.7);
+}
